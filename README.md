@@ -97,6 +97,8 @@ Interact in multiple languages. The assistant uses OpenAI’s multilingual capab
 🇪🇸 Spanish
 
 🌍 ...and many more!
+![image](https://github.com/user-attachments/assets/e50413dd-4185-4eff-b74f-f33fd9010427)
+
 
 ## 📁 Project Structure
 
