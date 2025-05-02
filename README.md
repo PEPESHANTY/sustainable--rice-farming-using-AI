@@ -2,6 +2,12 @@
 
 This AI-powered chatbot helps rice farmers and agricultural professionals get answers to their queries using PDF-based knowledge. It uses **LangChain**, **FAISS**, **OpenAI**, and **Streamlit**, and stores chat history on **AWS S3**.
 
+This project is a working **proof of concept prototype** created in under 12 hours as part of my submission for the **CeADAR Summer Internship 2025**. It demonstrates an AI-powered assistant for rice farmers built using Retrieval-Augmented Generation (RAG), with a live demo, vector-based document search, and real-time conversation interface.
+
+🔗 **Live Project**: [rice-farming-assistant.streamlit.app](https://rice-farming-assistant.streamlit.app)  
+📂 **GitHub Repo**: [PEPESHANTY/sustainable--rice-farming-using-AI](https://github.com/PEPESHANTY/sustainable--rice-farming-using-AI)
+
+---
 ---
 
 ## 🔍 Overview
