@@ -11,8 +11,16 @@ from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 
 import pathlib
-VECTOR_DIR = str(pathlib.Path(__file__).resolve().parent.parent / "vectorstore")
+# Start from the current file's parent
+base_path = pathlib.Path(__file__).resolve().parent
+vector_dir = base_path / "vectorstore"
 
+# If it doesn't exist, check one level higher
+if not vector_dir.exists():
+    vector_dir = base_path.parent / "vectorstore"
+
+# Convert to string
+VECTOR_DIR = str(vector_dir)
 
 # Load vector store
 db = FAISS.load_local(VECTOR_DIR, OpenAIEmbeddings(), allow_dangerous_deserialization=True)
