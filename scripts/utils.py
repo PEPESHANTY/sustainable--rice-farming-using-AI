@@ -2,6 +2,8 @@ import os
 from datetime import datetime
 import boto3
 from dotenv import load_dotenv
+from scripts.secrets_config import *  # Triggers the injection
+
 
 # Load .env with override to ensure correct values from environment
 load_dotenv(override=True)

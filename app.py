@@ -1,5 +1,5 @@
 import streamlit as st
-import os
+from scripts.secrets_config import *  # Triggers the injection
 
 from scripts.utils import save_chat_history, list_chat_files, load_chat_file
 from scripts.query import get_response_from_chain

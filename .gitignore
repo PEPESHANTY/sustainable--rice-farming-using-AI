@@ -15,5 +15,5 @@ __pycache__/
 
 # Optional local outputs
 chat_history/
-*.txt
+
 
