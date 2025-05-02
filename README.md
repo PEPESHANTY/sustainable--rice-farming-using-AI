@@ -24,7 +24,7 @@ This AI-powered chatbot helps rice farmers and agricultural professionals get an
 
 All PDF documents are embedded into vector space using OpenAI and stored using FAISS.
 
-![PDF Ingestion](screenshots/ingestion.png)
+
 ![image](https://github.com/user-attachments/assets/02a40181-16f6-4fb2-831c-9172d8421162)
 
 ---
@@ -33,7 +33,7 @@ All PDF documents are embedded into vector space using OpenAI and stored using F
 
 Chat with the assistant and get real-time responses about rice farming techniques.
 
-![Chat UI](screenshots/chat_ui.png)
+
 ![image](https://github.com/user-attachments/assets/6d4227ec-66d9-4e78-94bf-6d35c6658a9f)
 
 ---
@@ -42,7 +42,7 @@ Chat with the assistant and get real-time responses about rice farming technique
 
 Every session is stored as `.txt` in AWS S3 with timestamps.
 
-![S3 Storage](screenshots/s3_bucket.png)
+
 ![image](https://github.com/user-attachments/assets/046f2780-c3ac-42a3-b159-111b2d46e289)
 
 ---
@@ -51,7 +51,6 @@ Every session is stored as `.txt` in AWS S3 with timestamps.
 
 Easy access to revisit previous interactions from the sidebar dropdown.
 
-![Sidebar Chats](screenshots/sidebar_chats.png)
 ![image](https://github.com/user-attachments/assets/758a3f8b-797e-45b2-9b0b-3d4ec07af1f1)
 
 ---
@@ -96,7 +95,8 @@ Interact in multiple languages. The assistant uses OpenAI’s multilingual capab
 
 🇪🇸 Spanish
 
-🌍 ...and many more!
+🌍 ...and many more
+
 ![image](https://github.com/user-attachments/assets/e50413dd-4185-4eff-b74f-f33fd9010427)
 
 
