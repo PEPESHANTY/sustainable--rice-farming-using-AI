@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Sensitive credentials
+.env
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# Compiled files
+*.log
+
+# Optional local outputs
+chat_history/
+*.txt
+
