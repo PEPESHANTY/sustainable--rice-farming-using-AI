@@ -83,7 +83,7 @@ AWS_ACCESS_KEY_ID = "AKIA..."
 AWS_SECRET_ACCESS_KEY = "..."
 AWS_DEFAULT_REGION = "eu-north-1"
 S3_BUCKET_NAME = "sustainable-rice-chats"
-
+```
 ## 🌐 Multilingual Support
 Interact in multiple languages. The assistant uses OpenAI’s multilingual capabilities to understand and respond in:
 
