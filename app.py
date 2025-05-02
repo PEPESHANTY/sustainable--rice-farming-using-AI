@@ -54,7 +54,9 @@ st.image(resized_img)
 st.markdown("## 🌾 Rice Farming Assistance Agent")
 st.divider()
 
-st.info("💡 Click the sidebar (top-left) to access previous chats!", icon="🧾")
+if not st.session_state.chat_log:
+    st.info("💡 Click the sidebar (top-left) to access previous chats!", icon="🧾")
+
 
 # === Main Chat View ===
 with st.container():
