@@ -135,4 +135,4 @@ Streamlit
 Amazon AWS S3
 
 ## Built with 💡 by Shantanu Bhute for CeADAR Internship 2025.
-Let me know if you want help resizing or embedding those uploaded screenshots with proper markdown image paths!
+
