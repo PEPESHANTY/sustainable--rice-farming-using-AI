@@ -31,7 +31,7 @@ if st.session_state.reset_selector:
 # === Layout: Sidebar (Chat History Dropdown) ===
 with st.sidebar:
     st.markdown("### 📂 Previous Chats")
-    history_files = list_chat_files()  # from S3
+    history_files = sorted(list_chat_files(), reverse=True)  # from S3
     dropdown_options = ["📌 Current Chat"] + history_files
     if "chat_selector" not in st.session_state:
         st.session_state.chat_selector = "📌 Current Chat"
