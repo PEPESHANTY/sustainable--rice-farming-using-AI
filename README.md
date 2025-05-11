@@ -8,6 +8,9 @@ This project is a working **proof of concept prototype** created in under 12 hou
 📂 **GitHub Repo**: [PEPESHANTY/sustainable--rice-farming-using-AI](https://github.com/PEPESHANTY/sustainable--rice-farming-using-AI)
 
 ---
+## System Architecture
+![image](https://github.com/user-attachments/assets/f57d86a1-8c6f-4e58-8b02-797852eb7e61)
+
 ---
 
 ## 🔍 Overview
